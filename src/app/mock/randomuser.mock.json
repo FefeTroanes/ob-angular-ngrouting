@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "محمدعلی",
+        "last": "قاسمی"
+      },
+      "location": {
+        "street": {
+          "number": 8832,
+          "name": "شهید ثانی"
+        },
+        "city": "گلستان",
+        "state": "زنجان",
+        "country": "Iran",
+        "postcode": 89960,
+        "coordinates": {
+          "latitude": "18.0411",
+          "longitude": "-95.2707"
+        },
+        "timezone": {
+          "offset": "+5:00",
+          "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+        }
+      },
+      "email": "mhmdaaly.qsmy@example.com",
+      "login": {
+        "uuid": "c7ae6f6e-fbe0-4fc3-8c24-89f6108d4c5d",
+        "username": "bigelephant600",
+        "password": "shanghai",
+        "salt": "8R4c0Woq",
+        "md5": "ccbe8a1f9fda20436c73409fab0fe71c",
+        "sha1": "5c3e4181675796b630d2b7d0b76d8b0fafa830e0",
+        "sha256": "341700ef34f2f42754725eb8b99fbdc83c6d0a577b83e44f10606526aba57a82"
+      },
+      "dob": {
+        "date": "1979-09-16T09:24:14.539Z",
+        "age": 43
+      },
+      "registered": {
+        "date": "2022-05-02T03:23:45.149Z",
+        "age": 0
+      },
+      "phone": "010-58273832",
+      "cell": "0914-766-1616",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/41.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/41.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/41.jpg"
+      },
+      "nat": "IR"
+    }
+  ],
+  "info": {
+    "seed": "3919fd4054d32f4b",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
