@@ -45,12 +45,12 @@ export class RandomContactPageComponent {
   obtenerListaContactos(n: number) {
     this.randomUserService.obtenerMultipleRandomContacts(n).subscribe(
       {
-        next: (response: Results[]) => {
+        next: (response: Results) => {
           console.log(response);
         },
         error: (error) => console.error(`${error}`),
         complete: () => console.info('Peticion de multiples random contacts terminada')
       }
-    )
+    );
   }
 }
