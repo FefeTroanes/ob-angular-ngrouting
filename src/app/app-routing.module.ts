@@ -8,6 +8,7 @@ import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.com
 import { AuthGuard } from './guards/auth.guard';
 import { RandomContactPageComponent } from './pages/random-contact-page/random-contact-page.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { TasksPageComponent } from './pages/tasks-page/tasks-page.component';
 
 const routes: Routes = [
   {
@@ -42,6 +43,11 @@ const routes: Routes = [
       {
         path: 'random',
         component: RandomContactPageComponent,
+        canActivate: [AuthGuard]
+      },
+      {
+        path: 'tasks',
+        component: TasksPageComponent,
         canActivate: [AuthGuard]
       }
     ]
